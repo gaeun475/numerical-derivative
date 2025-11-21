@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>수치 미분과 정보과학</title>
+    <title>수치미분과 정보과학</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <div class="logo">🩶수치 미분🩶</div>
+    <div class="logo">🩶수치미분🩶</div>
 </header>
 
 <section class="hero">
-    <h1>수치 미분과 정보과학</h1>
+    <h1>수치미분과 정보과학</h1>
     <p>순간 변화율을 이용해 미분을 계산하는 방법과<br>
        이를 컴퓨터가 어떻게 근사하여 활용하는지를 소개하는 웹 페이지</p>
 </section>
@@ -40,15 +40,15 @@
 
     <section>
         <h2>2. 차분 근사</h2>
-        <p>차분 근사는 수치 미분의 기본 원리이다.<br>
-            대표적으로 전진 차분, 후진 차분, 중심 차분이 있으며<br>
+        <p>차분 근사는 수치미분의 기본 원리이다.<br>
+            대표적으로 전진차분, 후진차분, 중심차분이 있으며<br>
             각 수치 미분 근사식은 다음과 같다:</p>
 
-        <p class="formula">전진 차분:  f'(x) ≈ [f(x+h)-f(x)] / h</p>
-        <p class="formula">후진 차분:  f'(x) ≈ [f(x)-f(x-h)] / h</p>
-        <p class="formula">중심 차분:  f'(x) ≈ [f(x+h)-f(x-h)] / (2h)</p>
+        <p class="formula">전진차분:  f'(x) ≈ [f(x+h)-f(x)] / h</p>
+        <p class="formula">후진차분:  f'(x) ≈ [f(x)-f(x-h)] / h</p>
+        <p class="formula">중심차분:  f'(x) ≈ [f(x+h)-f(x-h)] / (2h)</p>
 
-        <p>*이 때, 중심 차분은 양쪽 값을 모두 사용하기 때문에 보통 가장 정확하다.</p>
+        <p>*이 때, 중심차분은 양쪽 값을 모두 사용하기 때문에 보통 가장 정확하다.</p>
     </section>
 
     <section>
@@ -76,7 +76,7 @@
     </section>
 
     <section>
-        <h2>5. 머신러닝에서의 수치 미분 </h2>
+        <h2>5. 머신러닝에서의 수치미분 </h2>
         <p>
             순간 변화율은 인공지능이 학습할 때도 사용된다.
             AI는 문제를 잘 풀기 위해 손실 함수라는 값을 줄여야 하는데,<br>
@@ -95,11 +95,11 @@
     </section>
 
     <section>
-        <h2>6. 실제 데이터 분석에서의 수치 미분</h2>
+        <h2>6. 실제 데이터 분석에서의 수치미분</h2>
         <p>
             대부분의 데이터(기온·속도·주가·심박수 등)는 일정한 시간 간격으로 측정된 이산 데이터이다.<br>
             → 연속 함수가 아니기 때문에 직접 미분을 할 수 없다.<br>
-            그러므로 다음과 같이 수치 미분을 사용한다:
+            그러므로 다음과 같이 수치미분을 사용한다:
         </p>
 
         <p class="formula">
@@ -121,15 +121,15 @@
 </div>
 
 <section class="graph">
-    <h2>수치 미분 방식 비교</h2>
-    <img src="./image.png" alt="수치 미분 그래프">
+    <h2>수치미분 방식 비교</h2>
+    <img src="./image.png" alt="수치미분 그래프">
     <p>
         위 그래프에서 각 직선은 다음과 같다:<br>
         검은색 곡선: 주어진 함수<br>
-        파란색(점 A를 지나는 직선): 전진 차분<br>
-        보라색(점 B를 지나는 직선): 중심 차분<br>
+        파란색(점 A를 지나는 직선): 전진차분<br>
+        보라색(점 B를 지나는 직선): 중심차분<br>
         빨간색(점 C를 지나는 직선): 접선<br>
-        주황색(점 D를 지나는 직선): 후진 차분<br>
+        주황색(점 D를 지나는 직선): 후진차분<br>
     </p>
 </section>
 
